@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ICLR 2025 Workshop on Embodied Intelligence with Large Language Models
+In Open City Environment: From Indoor to Outdoor</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: url('workshop.jpg') no-repeat center center;   /*在自己电脑记得改图片路径*/
+            background-size: cover;
+            color: #000000;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background: #eee;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #007acc;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .schedule table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .schedule table, .schedule th, .schedule td {
+            border: 1px solid #ddd;
+        }
+        .schedule th, .schedule td {
+            padding: 10px;
+            text-align: left;
+        }
+        .schedule th {
+            background: #f4f4f4;
+        }
+        .headshot-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .headshot {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 10px;
+        }
+        .headshot img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 5px;
+        }
+        .sponsor {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .sponsor img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .strong-italic {
+            font-style: italic;
+            font-weight: bold;
+            color: #000000;
+            text-shadow: 2px 2px 4px #000000;
+            background-color: #fff;
+            transform: skew(-10deg);
+        }
+
+        </style>
+    </head>
+<body>
+<header>
+    <h2>ICLR 2025 Workshop on Embodied Intelligence with Large Language Models</h2>
+    <h2>In Open City Environment: From Indoor to Outdoor</h2>
+    <p>ICLR 2025 Workshop </p>
+</header>
+<!--    <nav>-->
+<!--        <a href="https://open-foundation-model.github.io/#about">About</a>-->
+<!--    </nav>-->
+<!--    当确定url时把下面写法改成上面的-->
+<nav>
+    <a href="#About">Workshop Summary</a>
+    <a href="#call">Call for Paper</a>
+    <a href="#schedule">Tentative schedule</a>
+    <a href="#Organizers">Organizers and Biographies</a>
+</nav>
+
+<section id="about">
+    <h2>
+        <li>Workshop Summary</li>
+    </h2>
+    <p>
+        This workshop is motivated by a fact: human beings have strong embodied intelligence in an open environment,
+        but it is still challenging for large language models and LLM agents. Depsite some progresses on embodied AI
+        on static and indoor environment, the LLM agents are still struggling in tasks in large-scale outdoor environment,
+        such as navigation, search, spatial reasoning, task planning, etc. Therefore, we propose this workshop to discuss
+        the recent advances on the related research area and looking forward to the future development. Specifically,
+        it delves into topics of outdoor embodied intelligence, such as spatial intelligence and embodied perception,
+        reasoning and planning, decision-making and action, multi-agent and human-agent collaboration, and the development
+        of simulators, testbeds, datasets, and benchmarks. This comprehensive exploration of embodied LLM agents in open
+        city environment holds the potential to advance the field of artificial intelligence and open up new applications
+        in various domains.<i>We also have a special poster/short paper session for those solutions that perform best in
+        the Open Urban Environment Embodied Intelligence Competition.</i>
+    </p>
+    <p>
+        <strong>We would like to discuss the following topics in this workshop:</strong>
+    </p>
+    <h3>(1) Spatial Intelligence and Embodied Perception with LLM Agents in Open City Environment:</h3>
+    <ol>
+        <li>How LLM agents can develop a sense of space and time in open city environments.</li>
+        <li>The role of embodied perception in enhancing the performance of LLM agents in outdoor environment.</li>
+        <li>Techniques for integrating spatial intelligence and embodied perception for LLM agents in outdoor environment.</li>
+        <li>Other related topics.</li>
+    </ol>
+    <h3>(2) Reasoning and planning with LLM agents in open city environment:</h3>
+    <ol>
+        <li>How LLM agents can use reasoning to make decisions in open city environment.</li>
+        <li>Strategies for planning actions and sequences of tasks for LLM agents in city environment.</li>
+        <li>Analysis on the bias and limitations of reasoning and planning of LLM.</li>
+        <li>Other related topics.</li>
+    </ol>
+    <h3>(3) Decision-making and Action with LLM agents in open city environment:</h3>
+    <ol>
+        <li>How LLM agents can make decisions based on outdoor context and goals.</li>
+        <li>Combination of large language models and small machine learning models for decision-making in outdoor environment.</li>
+        <li>Techniques for evaluating and improving the decision-making and action capabilities of LLM agents in outdoor environment.</li>
+        <li>Other related topics.</li>
+    </ol>
+    <h3>(4) Multi-agent and human-agent collaboration in open environment:</h3>
+    <ol>
+        <li>How multiple LLM agents can collaborate to achieve common goals in outdoor environment.</li>
+        <li>The challenges and opportunities of human-agent collaboration in open city environment.</li>
+        <li>Strategies for designing effective multi-agent systems in open city environment</li>
+        <li>Perspectives on human-AI system for outdoor applications.</li>
+        <li>Other related topics.</li>
+    </ol>
+    <h3>(5) Simulator, testbeds, datasets, benchmark for embodied LLM agent in city environment:</h3>
+    <ol>
+        <li>The development and use of simulators and testbeds for evaluating embodied LLM agents in outdoor environment.</li>
+        <li>The creation and curation of datasets for training and testing embodied LLM agents in outdoor environment.</li>
+        <li>The establishment of benchmarks and evaluation metrics for embodied LLM agents in outdoor environment.</li>
+        <li>Other related topics.</li>
+    </ol>
+</section>
+<section id="call">
+    <h2>
+        <li>Call for Paper</li>
+    </h2>
+    <p>The workshop is seeking submissions of research and industrial papers, including those presenting initial
+        research findings, visionary ideas, or comprehensive studies. Submissions should adhere to the ICLR proceedings
+        format and fit into one of the following categories:
+    <li>- <strong>Tiny/Short paper:</strong> A maximum of 4 pages, with no limit on references and appendices.</li>
+    <li>- <strong>Regular paper:</strong> A maximum of 9 pages, with no limit on references and appendices.</li>
+    <h3>
+        <li>Key Dates</li>
+    </h3>
+    <ol>
+        <li><strong>Submission Deadline:</strong> Mar 03 2025 11:59PM UTC-0</li>
+    </ol>
+    <h3>
+        <li>Submission Guidelines</li>
+    </h3>
+    <ol>
+        <li><strong>- Format:</strong> Use the <a href="https://iclr.cc/Conferences/2025/CallForPapers" target="_blank">ICLR 2025 paper template</a>. Ensure the appendix is part of the same PDF as the
+            main document.
+        </li>
+        <li>- Submit your paper via <a href="https://openreview.net/group?id=ICLR.cc/2025/Workshop/EmbodiedAI" target="_blank">OpenReview</a>.</li>
+    </ol>
+    </p>
+
+</section>
+<section id="schedule">
+    <h2>
+        <li>Tentative schedule</li>
+    </h2>
+    <ol>
+        <li>Six Invited talk</li>
+        <li>Four oral presentations for accepted long paper</li>
+        <li>One poster session for accepted short paper</li>
+        <li>One poster session for those solutions that perform best in the Open Urban Environment Embodied Intelligence Competition</li>
+    </ol>
+    <div class="schedule">
+        <table>
+            <tbody>
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+            </tr>
+            <tr>
+                <td>9:00 AM to 9:10 AM</td>
+                <td>Opening remarks</td>
+            </tr>
+            <tr>
+                <td>9:10 AM to 9:30 AM</td>
+                <td>Invited talk 1 (20 min)</td>
+            </tr>
+            <tr>
+                <td>9:40 AM to 10:00 AM</td>
+                <td> Invaited talk 2 (20 min)</td>
+            </tr>
+            <tr>
+                <td>10:10 AM to 10:25 AM</td>
+                <td>Oral presentation 1 (15 min)</td>
+            </tr>
+            <tr>
+                <td>10:25 AM to 10:40 AM</td>
+                <td>Oral presentation 2 (15 min)</td>
+            </tr>
+            <tr>
+                <td>10:45 AM to 11:45 AM</td>
+                <td>Poster session for best solutions & coffee socials (1 h)</td>
+            </tr>
+            <tr>
+                <td>11:45 AM to 1:00 PM</td>
+                <td>Lunch break</td>
+            </tr>
+            <tr>
+                <td>1:00 PM to 1:20 PM</td>
+                <td>Invaited talk 3 (20 min)</td>
+            </tr>
+            <tr>
+                <td>1:30 PM to 1:50 PM</td>
+                <td>Invited talk 4 (20 min)</td>
+            </tr>
+            <tr>
+                <td>2:00 PM to 2:15 PM</td>
+                <td>Oral presentation 3 (15 min)</td>
+            </tr>
+            <tr>
+                <td>2:15 PM to 2:30 PM</td>
+                <td>Oral presentation 4 (15 min)</td>
+            </tr>
+            <tr>
+                <td>2:35 PM to 3:35 PM</td>
+                <td>Poster session for short paper & coffee socials 2 (1h)</td>
+            </tr>
+            <tr>
+                <td>3:40 PM to 4:00 PM</td>
+                <td>Invited talk 5 (20 min)</td>
+            </tr>
+            <tr>
+                <td>4:10 PM to 4:30 PM</td>
+                <td>Invited talk 6 (20 min)</td>
+            </tr>
+            <tr>
+                <td>4:40 PM to 5:10 PM</td>
+                <td>Panel discussion (30 min)</td>
+            </tr>
+            <tr>
+                <td>5:10 PM to 5:25 PM</td>
+                <td> Awards and conclusive remarks</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<section id="Organizers">
+    <h2>
+        <li>Organizers and Biographies</li>
+    </h2>
+    <div class="headshot-grid">
+        <div class="headshot">
+            <img src="./Chen Gao (Tsinghua University).jpg" alt="Chen Gao">
+            <p>Chen Gao</p>
+            <p>(Tsinghua University)</p>
+        </div>
+        <div class="headshot">
+            <img src="./Yitao Liang (Peking Univesity).jpg" alt="Yitao Liang">
+            <p>Yitao Liang</p>
+            <p>(Peking Univesity)</p>
+        </div>
+        <div class="headshot">
+            <img src="./Xin Wang (Tsinghua University).jpg" alt="Xin Wang">
+            <p>Xin Wang</p>
+            <p>(Tsinghua University)</p>
+        </div>
+        <div class="headshot">
+            <img src="./Yu Zheng (Massachusetts Institute of Technology).jpg" alt="Yu Zheng">
+            <p>Yu Zheng</p>
+            <p>(MIT)</p>
+        </div>
+        <div class="headshot">
+            <img src="./Tong Xia (University of Cambridge).jpg" alt="Tong Xia">
+            <p>Tong Xia</p>
+            <p>(University of Cambridge)</p>
+        </div>
+        <div class="headshot">
+            <img src="./Fengli Xu (Tsinghua University).jpg" alt="Fengli Xu">
+            <p>Fengli Xu</p>
+            <p>(Tsinghua University)</p>
+        </div>
+        <div class="headshot">
+            <img src="./Yong Li (Tsinghua University).jpg" alt="Yong Li">
+            <p>Yong Li</p>
+            <p>(Tsinghua University)</p>
+        </div>
+    </div>
+</section>
+<footer>
+    <footer>
+        <p>Contact us at: chgao96 [AT] tsinghua.edu.cn</p>
+    </footer>
+</footer>
+</body>
+</html>
